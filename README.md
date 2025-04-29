@@ -5,6 +5,9 @@ This project contains the solutions for two problems implemented in Java:
 1. **CPU Scheduling Simulation**: Simulates two CPU scheduling algorithms: FIFO (First-In-First-Out) and SJF (Shortest Job First, non-preemptive).
 2. **Producer-Consumer Problem**: Implements a multi-threaded simulation of the Producer-Consumer problem using semaphores.
 
+## Requirements
+- **Java**: Ensure Java 17 or later is installed.
+- **Make**: Required to build, run, and clean the project.
 
 ---
 
