@@ -1,0 +1,24 @@
+# Ignore compiled Java class files
+*.class
+
+# Ignore directories for compiled classes
+problem1/classes/
+problem2/classes/
+
+# Ignore output directories
+problem2/outputs/
+
+# Ignore Javadoc directories
+problem1Docs/
+problem2Docs/
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
