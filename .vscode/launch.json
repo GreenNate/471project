@@ -1,0 +1,37 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CPUScheduler",
+            "request": "launch",
+            "mainClass": "problem1.src.CPUScheduler",
+            "projectName": "471project_d7bcf2f9"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "problem1.src.Main",
+            "projectName": "471project_d7bcf2f9"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "args": "1 1 2",
+            "mainClass": "problem2.src.Main",
+            "projectName": "471project_d7bcf2f9"
+        }
+    ]
+}
