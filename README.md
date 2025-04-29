@@ -89,9 +89,9 @@ The program prints messages indicating:
 ### Testing
 
 To run the predefined test cases use:
-    ```bash
+```bash
     make test
-    ```
+```
 
 Test results are saved in the problem2/outputs/ directory.
 
@@ -101,14 +101,14 @@ Test results are saved in the problem2/outputs/ directory.
 
 ### Documentation
 Generate Javadocs for both problems:
-    ```bash
+```bash
     make docs
-    ```
+```
 
 The documentation will be generated in problem1Docs/ and problem2Docs/.
     
 ### Clean
 To remove compiled files, docs, and outputs:
-    ```bash
-    make clean
-    ```
+```bash
+make clean
+```
