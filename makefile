@@ -53,7 +53,7 @@ test: compile2
 	@echo "All test cases completed. Check the outputs/ directory."
 
 clean:
-	rm -rf $(P1_OUT) $(P2_OUT) problem2/outputs problem1Docs problem2Docs
+	rm -rf $(P1_OUT) $(P2_OUT) problem1/output problem2/outputs problem1Docs problem2Docs
 	
 
 docs1:
