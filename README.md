@@ -1,6 +1,6 @@
-# CPU Scheduling and Producer-Consumer Simulation
+# CPU Scheduling and Producer-Consumer Problem
 
-This project contains two distinct problems implemented in Java:
+This project contains the solutions for two problems implemented in Java:
 
 1. **CPU Scheduling Simulation**: Simulates two CPU scheduling algorithms: FIFO (First-In-First-Out) and SJF (Shortest Job First, non-preemptive).
 2. **Producer-Consumer Problem**: Implements a multi-threaded simulation of the Producer-Consumer problem using semaphores.
@@ -17,8 +17,8 @@ Simulates two CPU scheduling algorithms:
 
 ### Input
 The input file (`problem1/input/Datafile1-txt.txt`) contains process data in the following format: 
-ArrivalTime CPUBurstlength
 
+ArrivalTime CPUBurstlength
 
 ### How to Run
 1. Compile the code:
@@ -32,6 +32,7 @@ ArrivalTime CPUBurstlength
 Alternatively, you can run it directly:
     ```bash
     java -cp problem1/classes problem1.src.Main problem1/input/Datafile1-txt.txt
+    ```
 
 ### Output
 The program prints scheduling statistics for both FIFO and SJF algorithms, including:
@@ -45,7 +46,7 @@ The program prints scheduling statistics for both FIFO and SJF algorithms, inclu
 
 ---
 
-## Problem 2: Producer-Consumer Simulation
+## Problem 2: Producer-Consumer Problem
 
 ### Description
 Simulates the Producer-Consumer problem using semaphores. Multiple producer and consumer threads interact with a shared bounded buffer:
@@ -71,10 +72,12 @@ Number of consumer threads.
 Example:
     ```bash
     make run2 ARGS="5 2 3"
+    ```
 
 Alternatively, you can run it directly:
     ```bash
     java -cp problem2/classes problem2.src.Main <sleepTime> <numProducers> <numConsumers>
+    ```
 
 ### Output
 The program prints messages indicating:
@@ -88,6 +91,7 @@ The program prints messages indicating:
 To run the predefined test cases use:
     ```bash
     make test
+    ```
 
 Test results are saved in the problem2/outputs/ directory.
 
@@ -99,6 +103,7 @@ Test results are saved in the problem2/outputs/ directory.
 Generate Javadocs for both problems:
     ```bash
     make docs
+    ```
 
 The documentation will be generated in problem1Docs/ and problem2Docs/.
     
@@ -106,3 +111,4 @@ The documentation will be generated in problem1Docs/ and problem2Docs/.
 To remove compiled files, docs, and outputs:
     ```bash
     make clean
+    ```
