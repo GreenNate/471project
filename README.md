@@ -56,9 +56,9 @@ Consumers remove integers from the buffer.
 Command-Line Arguments
 The program accepts three arguments:
 
-Sleep time (in seconds) for the main thread before stopping the simulation.
-Number of producer threads.
-Number of consumer threads.
+1. Sleep time (in seconds) for the main thread before stopping the simulation.
+2. Number of producer threads.
+3. Number of consumer threads.
 
 ### How to Run
 1. Compile the code:
@@ -67,8 +67,9 @@ make compile2
 ```
 
 2. Run the simulation:
-    ```bash
-    make run2 ARGS="<sleepTime> <numProducers> <numConsumers>"
+```bash
+make run2 ARGS="<sleepTime> <numProducers> <numConsumers>"
+```
 
 Example:
 ```bash
@@ -107,6 +108,8 @@ make docs
 ```
 
 The documentation will be generated in problem1Docs/ and problem2Docs/.
+
+The documents can be accessed by opening problem1Docs/index.html or problem2Docs/index.html with a browser.
     
 ### Clean
 To remove compiled files, docs, and outputs:
