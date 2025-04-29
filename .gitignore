@@ -6,7 +6,7 @@ problem1/classes/
 problem2/classes/
 
 # Ignore output directories
-problem2/outputs/
+
 
 # Ignore Javadoc directories
 problem1Docs/

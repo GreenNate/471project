@@ -1,0 +1,386 @@
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 813
+Producer produced: 768
+Producer produced: 172
+Producer produced: 968
+Consumer consumed: 813
+Consumer consumed: 768
+Consumer consumed: 172
+Consumer consumed: 968
+Buffer empty. Consumer waiting...
+Producer produced: 229
+Consumer consumed: 229
+Producer produced: 299
+Producer produced: 883
+Producer produced: 668
+Producer produced: 666
+Consumer consumed: 299
+Producer produced: 584
+Producer produced: 204
+Consumer consumed: 883
+Consumer consumed: 668
+Consumer consumed: 666
+Producer produced: 6
+Consumer consumed: 584
+Producer produced: 665
+Consumer consumed: 204
+Consumer consumed: 6
+Producer produced: 244
+Consumer consumed: 665
+Producer produced: 93
+Consumer consumed: 244
+Consumer consumed: 93
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 552
+Consumer consumed: 552
+Producer produced: 723
+Consumer consumed: 723
+Buffer empty. Consumer waiting...
+Producer produced: 205
+Consumer consumed: 205
+Producer produced: 311
+Consumer consumed: 311
+Producer produced: 335
+Consumer consumed: 335
+Producer produced: 168
+Consumer consumed: 168
+Buffer empty. Consumer waiting...
+Producer produced: 126
+Consumer consumed: 126
+Buffer empty. Consumer waiting...
+Producer produced: 325
+Consumer consumed: 325
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 428
+Consumer consumed: 428
+Producer produced: 835
+Consumer consumed: 835
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 19
+Consumer consumed: 19
+Producer produced: 495
+Consumer consumed: 495
+Producer produced: 881
+Consumer consumed: 881
+Producer produced: 670
+Consumer consumed: 670
+Producer produced: 236
+Consumer consumed: 236
+Producer produced: 565
+Producer produced: 5
+Consumer consumed: 565
+Producer produced: 299
+Consumer consumed: 5
+Consumer consumed: 299
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 839
+Consumer consumed: 839
+Producer produced: 624
+Consumer consumed: 624
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 447
+Consumer consumed: 447
+Producer produced: 192
+Consumer consumed: 192
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 31
+Consumer consumed: 31
+Buffer empty. Consumer waiting...
+Producer produced: 630
+Consumer consumed: 630
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 338
+Consumer consumed: 338
+Producer produced: 940
+Consumer consumed: 940
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 812
+Consumer consumed: 812
+Producer produced: 14
+Consumer consumed: 14
+Buffer empty. Consumer waiting...
+Producer produced: 190
+Consumer consumed: 190
+Producer produced: 198
+Consumer consumed: 198
+Buffer empty. Consumer waiting...
+Producer produced: 566
+Consumer consumed: 566
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 716
+Consumer consumed: 716
+Producer produced: 41
+Consumer consumed: 41
+Producer produced: 886
+Producer produced: 198
+Consumer consumed: 886
+Producer produced: 238
+Consumer consumed: 198
+Consumer consumed: 238
+Buffer empty. Consumer waiting...
+Producer produced: 181
+Consumer consumed: 181
+Buffer empty. Consumer waiting...
+Producer produced: 665
+Consumer consumed: 665
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 139
+Consumer consumed: 139
+Producer produced: 500
+Consumer consumed: 500
+Producer produced: 561
+Consumer consumed: 561
+Producer produced: 552
+Consumer consumed: 552
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 809
+Consumer consumed: 809
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 130
+Consumer consumed: 130
+Producer produced: 362
+Consumer consumed: 362
+Producer produced: 378
+Consumer consumed: 378
+Buffer empty. Consumer waiting...
+Producer produced: 62
+Consumer consumed: 62
+Producer produced: 272
+Producer produced: 47
+Producer produced: 513
+Producer produced: 602
+Consumer consumed: 272
+Consumer consumed: 47
+Consumer consumed: 513
+Consumer consumed: 602
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 94
+Consumer consumed: 94
+Producer produced: 872
+Consumer consumed: 872
+Producer produced: 948
+Consumer consumed: 948
+Producer produced: 68
+Producer produced: 286
+Consumer consumed: 68
+Consumer consumed: 286
+Buffer empty. Consumer waiting...
+Producer produced: 200
+Consumer consumed: 200
+Producer produced: 417
+Consumer consumed: 417
+Buffer empty. Consumer waiting...
+Producer produced: 360
+Consumer consumed: 360
+Buffer empty. Consumer waiting...
+Producer produced: 232
+Consumer consumed: 232
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 977
+Consumer consumed: 977
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 314
+Consumer consumed: 314
+Producer produced: 436
+Consumer consumed: 436
+Producer produced: 384
+Consumer consumed: 384
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 22
+Consumer consumed: 22
+Producer produced: 762
+Consumer consumed: 762
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 920
+Consumer consumed: 920
+Producer produced: 736
+Consumer consumed: 736
+Producer produced: 73
+Consumer consumed: 73
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 995
+Consumer consumed: 995
+Buffer empty. Consumer waiting...
+Producer produced: 329
+Consumer consumed: 329
+Producer produced: 622
+Consumer consumed: 622
+Producer produced: 828
+Consumer consumed: 828
+Buffer empty. Consumer waiting...
+Producer produced: 883
+Consumer consumed: 883
+Producer produced: 646
+Producer produced: 919
+Producer produced: 949
+Consumer consumed: 646
+Producer produced: 483
+Producer produced: 848
+Producer produced: 835
+Consumer consumed: 919
+Producer produced: 754
+Consumer consumed: 949
+Consumer consumed: 483
+Consumer consumed: 848
+Producer produced: 137
+Producer produced: 434
+Consumer consumed: 835
+Producer produced: 916
+Producer produced: 243
+Consumer consumed: 754
+Producer produced: 445
+Buffer full. Producer waiting...
+Buffer full. Producer waiting...
+Consumer consumed: 137
+Producer produced: 488
+Consumer consumed: 434
+Producer produced: 207
+Consumer consumed: 916
+Consumer consumed: 243
+Consumer consumed: 445
+Producer produced: 61
+Consumer consumed: 488
+Producer produced: 576
+Producer produced: 210
+Producer produced: 310
+Consumer consumed: 207
+Consumer consumed: 61
+Producer produced: 927
+Consumer consumed: 576
+Producer produced: 823
+Producer produced: 863
+Buffer full. Producer waiting...
+Buffer full. Producer waiting...
+Buffer full. Producer waiting...
+Consumer consumed: 210
+Producer produced: 480
+Buffer full. Producer waiting...
+Consumer consumed: 310
+Producer produced: 353
+Consumer consumed: 927
+Producer produced: 191
+Consumer consumed: 823
+Producer produced: 968
+Buffer full. Producer waiting...
+Consumer consumed: 863
+Producer produced: 263
+Consumer consumed: 480
+Producer produced: 373
+Consumer consumed: 353
+Producer produced: 424
+Buffer full. Producer waiting...
+Consumer consumed: 191
+Producer produced: 704
+Consumer consumed: 968
+Producer produced: 741
+Buffer full. Producer waiting...
+Consumer consumed: 263
+Producer produced: 132
+Consumer consumed: 373
+Consumer consumed: 424
+Producer produced: 253
+Consumer consumed: 704
+Consumer consumed: 741
+Producer produced: 633
+Consumer consumed: 132
+Producer produced: 927
+Consumer consumed: 253
+Consumer consumed: 633
+Producer produced: 464
+Producer produced: 359
+Consumer consumed: 927
+Consumer consumed: 464
+Producer produced: 406
+Consumer consumed: 359
+Producer produced: 491
+Producer produced: 615
+Consumer consumed: 406
+Consumer consumed: 491
+Consumer consumed: 615
+Buffer empty. Consumer waiting...
+Producer produced: 419
+Consumer consumed: 419
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 449
+Consumer consumed: 449
+Buffer empty. Consumer waiting...
+Producer produced: 69
+Consumer consumed: 69
+Producer produced: 598
+Consumer consumed: 598
+Producer produced: 640
+Producer produced: 103
+Producer produced: 444
+Consumer consumed: 640
+Producer produced: 118
+Consumer consumed: 103
+Consumer consumed: 444
+Consumer consumed: 118
+Producer produced: 148
+Consumer consumed: 148
+Buffer empty. Consumer waiting...
+Producer produced: 440
+Consumer consumed: 440
+Producer produced: 213
+Consumer consumed: 213
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 374
+Consumer consumed: 374
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 53
+Consumer consumed: 53
+Producer produced: 717
+Consumer consumed: 717
+Producer produced: 350
+Consumer consumed: 350
+Producer produced: 787
+Consumer consumed: 787
+Producer produced: 193
+Producer produced: 544
+Producer produced: 404
+Consumer consumed: 193
+Consumer consumed: 544
+Consumer consumed: 404
+Buffer empty. Consumer waiting...
+Producer produced: 40
+Consumer consumed: 40
+Producer produced: 302
+Consumer consumed: 302
+Producer produced: 774
+Consumer consumed: 774
+Producer produced: 803
+Consumer consumed: 803
+Producer produced: 280
+Consumer consumed: 280
+Main thread stopping threads...
+All threads exited cleanly.

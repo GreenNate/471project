@@ -36,40 +36,57 @@ public class Main {
             if (!outputDir.exists()) {
                 outputDir.mkdirs();
             }
-            // save original System.out
+
+            // save the original System.out (console)
             PrintStream consoleOut = System.out;
 
-            // redirect output to file
-            PrintStream fileOut = new PrintStream(new FileOutputStream("problem1/output/scheduling_output.txt"));
-            System.setOut(fileOut);
+            // --------- FIFO Phase ---------
+            PrintStream fifoOut = new PrintStream(new FileOutputStream("problem1/output/fifo_output.txt"));
+            System.setOut(fifoOut);
 
-            // Run FIFO scheduling
             List<Process> processes = CPUScheduler.readProcessesFromFile(filePath);
 
             System.out.println("---- Running FIFO ----");
             CPUScheduler.runFIFO(processes);
             CPUScheduler.printStatistics(processes);
 
-            // Re-read process list to avoid reusing modified processes
+            fifoOut.close();
+
+            // restore console
+            System.setOut(consoleOut);
+
+            // print FIFO output to console
+            System.out.println("\nContents of FIFO output:");
+            BufferedReader fifoReader = new BufferedReader(new FileReader("problem1/output/fifo_output.txt"));
+            String line;
+            while ((line = fifoReader.readLine()) != null) {
+                System.out.println(line);
+            }
+            fifoReader.close();
+
+            // --------- SJF Phase ---------
+            PrintStream sjfOut = new PrintStream(new FileOutputStream("problem1/output/sjf_output.txt"));
+            System.setOut(sjfOut);
+
             processes = CPUScheduler.readProcessesFromFile(filePath);
-            System.out.println("\n---- Running SJF ----");
+
+            System.out.println("---- Running SJF ----");
             CPUScheduler.runSJF(processes);
             CPUScheduler.printStatistics(processes);
 
-            // close file output when done
-            fileOut.close();
+            sjfOut.close();
 
-            // set System.out back to console
+            // restore console
             System.setOut(consoleOut);
-            
-            // print the output file to console
-            BufferedReader reader = new BufferedReader(new FileReader("problem1/output/scheduling_output.txt"));
-            String line;
-            while ((line = reader.readLine()) != null) {
+
+            // print SJF output to console
+            System.out.println("\nContents of SJF output:");
+            BufferedReader sjfReader = new BufferedReader(new FileReader("problem1/output/sjf_output.txt"));
+            while ((line = sjfReader.readLine()) != null) {
                 System.out.println(line);
             }
-            reader.close();
-            
+            sjfReader.close();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
