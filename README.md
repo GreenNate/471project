@@ -62,22 +62,23 @@ Number of consumer threads.
 
 ### How to Run
 1. Compile the code:
-    ```bash
-    make compile2
+```bash
+make compile2
+```
 
 2. Run the simulation:
     ```bash
     make run2 ARGS="<sleepTime> <numProducers> <numConsumers>"
 
 Example:
-    ```bash
-    make run2 ARGS="5 2 3"
-    ```
+```bash
+make run2 ARGS="5 2 3"
+```
 
 Alternatively, you can run it directly:
-    ```bash
-    java -cp problem2/classes problem2.src.Main <sleepTime> <numProducers> <numConsumers>
-    ```
+```bash
+java -cp problem2/classes problem2.src.Main <sleepTime> <numProducers> <numConsumers>
+```
 
 ### Output
 The program prints messages indicating:
@@ -90,7 +91,7 @@ The program prints messages indicating:
 
 To run the predefined test cases use:
 ```bash
-    make test
+make test
 ```
 
 Test results are saved in the problem2/outputs/ directory.
@@ -102,7 +103,7 @@ Test results are saved in the problem2/outputs/ directory.
 ### Documentation
 Generate Javadocs for both problems:
 ```bash
-    make docs
+make docs
 ```
 
 The documentation will be generated in problem1Docs/ and problem2Docs/.
