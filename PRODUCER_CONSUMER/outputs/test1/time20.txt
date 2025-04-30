@@ -1,0 +1,81 @@
+Buffer empty. Consumer waiting...
+Producer produced: 935
+Consumer consumed: 935
+Buffer empty. Consumer waiting...
+Producer produced: 695
+Consumer consumed: 695
+Producer produced: 856
+Consumer consumed: 856
+Producer produced: 962
+Consumer consumed: 962
+Buffer empty. Consumer waiting...
+Producer produced: 257
+Consumer consumed: 257
+Producer produced: 122
+Consumer consumed: 122
+Producer produced: 748
+Consumer consumed: 748
+Buffer empty. Consumer waiting...
+Producer produced: 321
+Consumer consumed: 321
+Producer produced: 117
+Consumer consumed: 117
+Producer produced: 671
+Consumer consumed: 671
+Buffer empty. Consumer waiting...
+Producer produced: 709
+Consumer consumed: 709
+Producer produced: 477
+Consumer consumed: 477
+Producer produced: 491
+Consumer consumed: 491
+Producer produced: 104
+Consumer consumed: 104
+Producer produced: 933
+Consumer consumed: 933
+Producer produced: 376
+Consumer consumed: 376
+Producer produced: 724
+Consumer consumed: 724
+Buffer empty. Consumer waiting...
+Producer produced: 768
+Consumer consumed: 768
+Buffer empty. Consumer waiting...
+Producer produced: 37
+Consumer consumed: 37
+Producer produced: 64
+Consumer consumed: 64
+Buffer empty. Consumer waiting...
+Producer produced: 420
+Consumer consumed: 420
+Producer produced: 173
+Consumer consumed: 173
+Producer produced: 243
+Consumer consumed: 243
+Producer produced: 995
+Producer produced: 633
+Consumer consumed: 995
+Producer produced: 353
+Consumer consumed: 633
+Producer produced: 581
+Consumer consumed: 353
+Producer produced: 714
+Producer produced: 41
+Consumer consumed: 581
+Producer produced: 116
+Consumer consumed: 714
+Producer produced: 956
+Consumer consumed: 41
+Consumer consumed: 116
+Producer produced: 913
+Consumer consumed: 956
+Consumer consumed: 913
+Buffer empty. Consumer waiting...
+Producer produced: 504
+Consumer consumed: 504
+Buffer empty. Consumer waiting...
+Producer produced: 211
+Consumer consumed: 211
+Buffer empty. Consumer waiting...
+Main thread stopping threads...
+All threads exited cleanly.

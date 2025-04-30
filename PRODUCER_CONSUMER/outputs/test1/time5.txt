@@ -1,0 +1,25 @@
+Buffer empty. Consumer waiting...
+Producer produced: 753
+Consumer consumed: 753
+Producer produced: 939
+Consumer consumed: 939
+Producer produced: 545
+Consumer consumed: 545
+Buffer empty. Consumer waiting...
+Producer produced: 40
+Consumer consumed: 40
+Buffer empty. Consumer waiting...
+Producer produced: 783
+Consumer consumed: 783
+Producer produced: 628
+Consumer consumed: 628
+Producer produced: 547
+Consumer consumed: 547
+Buffer empty. Consumer waiting...
+Producer produced: 439
+Consumer consumed: 439
+Buffer empty. Consumer waiting...
+Producer produced: 861
+Consumer consumed: 861
+Main thread stopping threads...
+All threads exited cleanly.

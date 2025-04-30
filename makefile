@@ -3,10 +3,10 @@ JAVAC = javac
 JAVA = java
 
 # Directories
-P1_SRC = problem1/src
-P2_SRC = problem2/src
-P1_OUT = problem1/classes
-P2_OUT = problem2/classes
+P1_SRC = CPUSCHED/src
+P2_SRC = PRODUCER_CONSUMER/src
+P1_OUT = CPUSCHED/classes
+P2_OUT = PRODUCER_CONSUMER/classes
 
 # Problem 1 Sources
 P1_SOURCES = $(P1_SRC)/Main.java $(P1_SRC)/CPUScheduler.java $(P1_SRC)/Process.java
@@ -27,29 +27,29 @@ compile2:
 	$(JAVAC) -d $(P2_OUT) -sourcepath $(P2_SRC) $(P2_SOURCES)
 
 run1: compile1
-	java -cp problem1/classes problem1.src.Main problem1/input/Datafile1-txt.txt
+	java -cp CPUSCHED/classes CPUSCHED.src.Main CPUSCHED/input/Datafile1-txt.txt
 
 run2: compile2
-	java -cp problem2/classes problem2.src.Main $(ARGS)
+	java -cp PRODUCER_CONSUMER/classes PRODUCER_CONSUMER.src.Main $(ARGS)
 
 test: compile2
 	@echo "Running all test cases from tests.txt..."
-	@mkdir -p problem2/outputs
+	@mkdir -p PRODUCER_CONSUMER/outputs
 	@i=1; \
 	while read -r producers consumers; do \
-		tcdir="problem2/outputs/test$$i"; \
+		tcdir="PRODUCER_CONSUMER/outputs/test$$i"; \
 		mkdir -p $$tcdir; \
 		for t in 5 10 20; do \
 			echo "Running Test $$i: time=$$t, producers=$$producers, consumers=$$consumers"; \
-			$(JAVA) -cp $(P2_OUT) problem2.src.Main $$t $$producers $$consumers > $$tcdir/time$$t.txt; \
+			$(JAVA) -cp $(P2_OUT) PRODUCER_CONSUMER.src.Main $$t $$producers $$consumers > $$tcdir/time$$t.txt; \
 		done; \
 		i=$$((i + 1)); \
-	done < problem2/input/tests.txt
-	@echo "All test cases completed. Check the problem2/outputs/ directory."
+	done < PRODUCER_CONSUMER/input/tests.txt
+	@echo "All test cases completed. Check the PRODUCER_CONSUMER/outputs/ directory."
 
 
 clean:
-	rm -rf $(P1_OUT) $(P2_OUT) problem1/output problem2/outputs problem1Docs problem2Docs
+	rm -rf $(P1_OUT) $(P2_OUT) CPUSCHED/output PRODUCER_CONSUMER/outputs problem1Docs problem2Docs
 	
 
 docs1:

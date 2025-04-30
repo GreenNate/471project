@@ -2,8 +2,8 @@
 *.class
 
 # Ignore directories for compiled classes
-problem1/classes/
-problem2/classes/
+CPUSCHED/classes/
+PRODUCER_CONSUMER/classes/
 
 # Ignore output directories
 

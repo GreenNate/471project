@@ -1,0 +1,45 @@
+Buffer empty. Consumer waiting...
+Producer produced: 578
+Consumer consumed: 578
+Producer produced: 663
+Consumer consumed: 663
+Producer produced: 232
+Consumer consumed: 232
+Buffer empty. Consumer waiting...
+Producer produced: 579
+Consumer consumed: 579
+Producer produced: 720
+Producer produced: 787
+Producer produced: 28
+Consumer consumed: 720
+Producer produced: 329
+Consumer consumed: 787
+Consumer consumed: 28
+Producer produced: 536
+Producer produced: 487
+Consumer consumed: 329
+Consumer consumed: 536
+Producer produced: 27
+Producer produced: 861
+Consumer consumed: 487
+Producer produced: 280
+Consumer consumed: 27
+Producer produced: 616
+Consumer consumed: 861
+Producer produced: 987
+Producer produced: 214
+Consumer consumed: 280
+Producer produced: 393
+Consumer consumed: 616
+Producer produced: 542
+Producer produced: 432
+Consumer consumed: 987
+Consumer consumed: 214
+Producer produced: 571
+Consumer consumed: 393
+Producer produced: 533
+Consumer consumed: 542
+Consumer consumed: 432
+Producer produced: 770
+Main thread stopping threads...
+All threads exited cleanly.

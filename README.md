@@ -1,9 +1,9 @@
-# CPU Scheduling and Producer-Consumer Problem
+# CPU Scheduling and PRODUCER_CONSUMER Problem
 
 This project contains the solutions for two problems implemented in Java:
 
 1. **CPU Scheduling Simulation**: Simulates two CPU scheduling algorithms: FIFO (First-In-First-Out) and SJF (Shortest Job First, non-preemptive).
-2. **Producer-Consumer Problem**: Implements a multi-threaded simulation of the Producer-Consumer problem using semaphores.
+2. **PRODUCER_CONSUMER Problem**: Implements a multi-threaded simulation of the PRODUCER_CONSUMER problem using semaphores.
 
 ## Requirements
 - **Java**: Ensure Java 17 or later is installed.
@@ -49,10 +49,10 @@ The program prints scheduling statistics for both FIFO and SJF algorithms, inclu
 
 ---
 
-## Problem 2: Producer-Consumer Problem
+## Problem 2: PRODUCER_CONSUMER Problem
 
 ### Description
-Simulates the Producer-Consumer problem using semaphores. Multiple producer and consumer threads interact with a shared bounded buffer:
+Simulates the PRODUCER_CONSUMER problem using semaphores. Multiple producer and consumer threads interact with a shared bounded buffer:
 
 Producers generate random integers and insert them into the buffer.
 Consumers remove integers from the buffer.

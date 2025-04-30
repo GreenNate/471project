@@ -1,0 +1,79 @@
+Buffer empty. Consumer waiting...
+Buffer empty. Consumer waiting...
+Producer produced: 156
+Producer produced: 201
+Producer produced: 393
+Producer produced: 271
+Consumer consumed: 156
+Consumer consumed: 201
+Producer produced: 686
+Producer produced: 412
+Producer produced: 697
+Buffer full. Producer waiting...
+Consumer consumed: 393
+Producer produced: 958
+Consumer consumed: 271
+Producer produced: 976
+Buffer full. Producer waiting...
+Consumer consumed: 686
+Producer produced: 104
+Consumer consumed: 412
+Producer produced: 463
+Buffer full. Producer waiting...
+Buffer full. Producer waiting...
+Consumer consumed: 697
+Producer produced: 279
+Consumer consumed: 958
+Producer produced: 56
+Consumer consumed: 976
+Producer produced: 202
+Consumer consumed: 104
+Producer produced: 480
+Buffer full. Producer waiting...
+Consumer consumed: 463
+Producer produced: 42
+Buffer full. Producer waiting...
+Consumer consumed: 279
+Producer produced: 384
+Consumer consumed: 56
+Producer produced: 29
+Buffer full. Producer waiting...
+Buffer full. Producer waiting...
+Consumer consumed: 202
+Producer produced: 118
+Buffer full. Producer waiting...
+Buffer full. Producer waiting...
+Consumer consumed: 480
+Producer produced: 984
+Buffer full. Producer waiting...
+Consumer consumed: 42
+Producer produced: 172
+Buffer full. Producer waiting...
+Buffer full. Producer waiting...
+Consumer consumed: 384
+Producer produced: 598
+Consumer consumed: 29
+Producer produced: 612
+Buffer full. Producer waiting...
+Buffer full. Producer waiting...
+Consumer consumed: 118
+Producer produced: 691
+Consumer consumed: 984
+Producer produced: 725
+Consumer consumed: 172
+Producer produced: 934
+Consumer consumed: 598
+Producer produced: 814
+Buffer full. Producer waiting...
+Buffer full. Producer waiting...
+Consumer consumed: 612
+Producer produced: 677
+Consumer consumed: 691
+Producer produced: 132
+Buffer full. Producer waiting...
+Consumer consumed: 725
+Producer produced: 496
+Buffer full. Producer waiting...
+Buffer full. Producer waiting...
+Main thread stopping threads...
+All threads exited cleanly.
